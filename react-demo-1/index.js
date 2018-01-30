@@ -13,13 +13,22 @@ class App extends React.Component{
         super(props);
         this.state = {
             isShow: false,
+            value: "123"
         };
         this.changeState = this.changeState.bind(this);
+        this.handleChange = this.handleChange.bind(this);
     }
 
     changeState(){
         return this.setState({
-            isShow: true
+            isShow: true,
+        })
+    }
+
+    handleChange(e){
+        console.log(e.target.value);
+        return this.setState({
+            value: e.target.value
         })
     }
 
@@ -28,7 +37,9 @@ class App extends React.Component{
             <div className="container">
                 <Top callbackParent={this.changeState}/>
 
-                <Win winShow={this.state.isShow}/>
+                <Win winShow={this.state.isShow} handleChange={this.handleChange}/>
+
+                <p className="result">{this.state.value}</p>
             </div>
         )
     }
