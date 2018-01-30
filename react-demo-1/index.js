@@ -3,7 +3,6 @@
  */
 import React from 'react'
 import { render } from 'react-dom'
-import './css/reset.css'
 import './css/base.css'
 import Top from './module/top'
 import Win from './module/win'
