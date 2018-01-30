@@ -34,9 +34,8 @@ export default class Win extends React.Component{
                 <div className={"wrap " + this.getWin()} ></div>
                 <div className={"win "+ this.getWin()}>
                     <a href="javascript:void(0);" className="close block" onClick={this.closeWin}>×</a>
-                    <p>
-                        props 和 state
-                    </p>
+
+                    <input type="text" className="username" onChange={this.props.handleChange}/>
                 </div>
             </div>
         )
