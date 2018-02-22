@@ -9,4 +9,4 @@ react-demo-1 简单讲述react数据传递方式
 
 react-demo-2 使用redux进行数据传递
 
-参考知乎 `https://www.zhihu.com/question/41312576?sort=created` 理解redux
+参考知乎 [https://www.zhihu.com/question/41312576?sort=created](https://www.zhihu.com/question/41312576?sort=created) 理解redux
