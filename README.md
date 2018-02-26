@@ -14,7 +14,7 @@ react学习中
 
 ### react-demo-2 使用redux进行数据传递
 
-    参考知乎 [https://www.zhihu.com/question/41312576?sort=created](https://www.zhihu.com/question/41312576?sort=created) 理解redux
+   参考知乎 [https://www.zhihu.com/question/41312576?sort=created](https://www.zhihu.com/question/41312576?sort=created) 理解redux
   
     知乎大神写的特别好，直接看文章就能理解七七八八...
     
