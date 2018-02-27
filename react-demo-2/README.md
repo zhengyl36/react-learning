@@ -14,6 +14,7 @@
   
 ## 流程
 
+  ![](./react-redux.png)
   
   
   
