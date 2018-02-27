@@ -13,5 +13,5 @@ react学习中
 
    参考知乎 [https://www.zhihu.com/question/41312576?sort=created](https://www.zhihu.com/question/41312576?sort=created) 理解redux
   
-    知乎大神写的特别好，直接看文章就能理解七七八八...
-    
+   知乎大神写的特别好，直接看文章就能理解七七八八...  
+   [官方例子](http://www.redux.org.cn/)很多，且很好理解
