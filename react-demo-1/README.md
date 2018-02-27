@@ -8,7 +8,7 @@
   
   子组件中对`props`传递的数据的两种使用方式
   
-  一种是直接使用`this.props`，随父组件传递的props发生改变而改变，子组件无法作用于`props`改变其值
+  一种是直接使用`this.props`，随父组件传递的`props`发生改变而改变，子组件无法作用于`props`改变其值
   
   一种是将`props`赋值到`state`中，子组件中添加函数`componentWillReceiveProps`,使`props`发生改变时更新`state`
   
