@@ -1,8 +1,10 @@
 #  安装  
 
-  npm install 安装环境  
+
+  npm install 安装环境  
   cd reac-demo-1 进入项目一的目录  
   npm run dev 运行项目一
+  
   
 ## [react-demo-1 简单react数据传递方式](/react-demo-1/README.md)
 
