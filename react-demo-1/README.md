@@ -10,7 +10,7 @@
   
   一种是直接使用this.props，随父组件传递的props发生改变而改变，子组件无法作用于props改变其值
   
-  一种是将props赋值到state中，子组件中添加函数componentWillReceiveProps,使props发生改变时更新state
+  一种是将props赋值到state中，子组件中添加函数`componentWillReceiveProps`,使props发生改变时更新state
   
 ```js
 例子（值）：
