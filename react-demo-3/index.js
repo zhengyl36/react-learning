@@ -6,14 +6,14 @@ import { render } from 'react-dom'
 import {createStore} from 'redux'
 import {Provider} from 'react-redux'
 import reducer from './reducers'
-import {Router, browserHistory} from 'react-router'
+import {Router} from 'react-router'
 import routeConfig from './router'
 
 const store = createStore(reducer);
 
 render((
     <Provider store={store}>
-        <Router routes={routeConfig} history={browserHistory}/>
+        <Router routes={routeConfig}/>
     </Provider>
 ),document.getElementById('app'));
 
