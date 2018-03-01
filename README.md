@@ -21,7 +21,9 @@
    [官方例子](http://www.redux.org.cn/)很多，且很好理解  
    写了个简单的例子...
 
-## react-demo-3 react-router
-  
-  学习中
+## [react-demo-3 react-router](/react-demo-3)
+
+  详情见项目
+  
+  
 
