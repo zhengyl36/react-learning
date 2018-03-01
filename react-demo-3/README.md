@@ -35,8 +35,8 @@
   
   1. 刷新之后页面404？
     
-    webpack中添加配置
     
+    webpack中添加配置
  ```js
     devServer: {
         historyApiFallback: true,
@@ -44,6 +44,7 @@
  ```
   2. 设置好路由后子路由没有加载
   
+  
   查看路由上层组件中是否有添加 `this.props.children`
   
 ```js
@@ -59,6 +60,7 @@
 ```
 
 ## 路由太多容易混淆，可以直接使用配置文件
+
 ```js
   const routeConfig = [
       {
